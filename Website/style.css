@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+body{
+    background-color: #ffffff;
+    overflow-y: scroll;
+}
+section{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+/* navbar */
+nav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .5px solid black;
+    z-index: 10;
+    color: white;
+    background-color: #333333a8;
+}
+.title{
+    width: 30%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 38px;
+    font-family: 'Indie Flower', cursive;
+}
+.navlinks{
+    position: absolute;
+    right: 0;
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-around;
+    text-align: center;
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    outline: none;
+    font-size: 24px;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    padding: 20px;
+    display: flex;
+    width: 50%;
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+
+.info{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15%;
+    align-items: center;
+    
+}
+.info img {
+    max-height: 30%;
+}
+
+/* pricing */
+#pricing{
+    display: flex;
+
+}
+.window{
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background: #e5e5e5;
+    padding: 5%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+.price{
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    background: #e5e5e5;
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+.value{
+    font-size: 30px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 10%;
+}
+.pricetitle{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 10%;
+}
+.price a{
+    position: relative;
+    top: 60%;
+    border-radius: 20px;
+    width: 100px;
+    padding: 8px 20px;
+    height: 30px;
+    background: #63acff73;
+    color: black;
+    border: 1px solid grey;
+    text-decoration: none;
+    outline: none;
+}
+.price a:hover{
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+#main-footer {
+    background-color: #333333a8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#main-footer ul {
+    list-style: none;
+}
+
+#main-footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#main-footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* SVG and animation */
+.svg{
+    position: absolute;
+    padding: 0;
+    width: 35%;
+    top: 25%;
+    right: 0;
+}
+#balloon1{
+    transform: rotateZ(-4deg);
+    animation: float 5s ease-in-out infinite;
+    transform-origin: 50% 65%;
+    transition: 3s ease;
+}
+#Vector_17{
+    transform: translateY(4%);
+    transform-origin: 80% 27%;
+}
+#Vector_18{
+    transform: translateY(4%);
+    transform-origin: 80% 27%;
+}
+#Vector_19{
+    transform: translateY(4%);
+    transform-origin: 50% 27%;
+}
+#balloon2{
+    transform: rotateZ(-12deg);
+    animation: float2 3s ease-in-out infinite;
+    transform-origin: 50% 65%;
+    transition: 3s ease;
+}
+#balloon3{
+    animation: float3 8s ease-in-out infinite;
+    transform-origin: 50% 65%;
+}
+#Vector_14{
+    transform: translateY(4%);
+    transform-origin: 80% 27%;
+}
+#Vector_15{
+    transform: translateY(4%);
+    transform-origin: 80% 27%;
+}
+#Vector_16{
+    transform: rotateZ(4deg) translateY(2%);
+    transform-origin: 50% 27%;
+}
+#Vector_11{
+    transform: rotateZ(12deg) translateY(4%);
+    transform-origin: 80% 27%;
+}
+#Vector_12{
+    transform: rotateZ(12deg) translateY(4%);
+    transform-origin: 80% 27%;
+}
+#Vector_13{
+    transform: rotateZ(3deg) translateY(4%);
+    transform-origin: 50% 27%;
+}
+@keyframes float {
+    0%{
+        transform: rotateZ(-4deg);
+    }
+    50%{
+        transform: rotateZ(-8deg);
+    }
+    100%{
+        transform: rotateZ(-4deg);
+    }
+}
+@keyframes float2 {
+    0%{
+        transform: rotateZ(-12deg);
+    }
+    50%{
+        transform: rotateZ(-10deg);
+    }
+    100%{
+        transform: rotateZ(-12deg);
+    }
+}
+@keyframes float3 {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(-4deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+
+#feather1{
+    animation: flow 9s ease-in-out infinite;
+    transform-origin: center;
+}
+#feather2{
+    animation: flow 6s ease-in-out infinite;
+    transform-origin: center;
+}
+#feather3{
+    animation: flow 8s ease-in-out infinite;
+    transform-origin: center;
+}
+@keyframes flow {
+    0%{transform: rotateZ(0deg)}
+    50%{transform: rotateZ(7deg)}
+    100%{transform: rotateZ(0deg)}
+}
+.arrow{
+	position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%,-10%);
+}
+.arwbod {
+    stroke-dasharray: 100;
+    animation-delay: 3s;
+    animation: dashdraw 3s linear infinite;
+ }
+.l {
+    stroke-dasharray: 100;
+    animation-delay: 3s;
+    animation: dashdraw2 3s linear infinite;
+ }
+.r {
+    stroke-dasharray: 100;
+    animation-delay: 3s;
+    animation: dashdraw2 3s linear infinite;
+ }
+ @keyframes dashdraw {
+    0%{stroke-dashoffset: 0;}
+    75% {stroke-dashoffset: 200}
+    100%{stroke-dashoffset: 200;}
+ }
+ @keyframes dashdraw2 {
+    0%{stroke-dashoffset: 0;}
+    89% {stroke-dashoffset: 200}
+    100%{stroke-dashoffset: 200;}
+ }

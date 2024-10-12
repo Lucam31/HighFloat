@@ -28,20 +28,38 @@ header {
 .logo {
     width: 40px;
     height: 40px;
-    background-color: white;
+}
+svg {
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .hero {
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
     text-align: center;
     width: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 36pt;
+    font-size: 60pt;
     font-weight: bolder;
     color: #333;
+    align-items: center;
+    justify-content: center;
 }
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.img {
+    max-width: 300px;
+}
+.hero img {
+    width: 100%;
+}
+.centered {
+    position: relative;
+    top: -50%;
+  }
 nav {
 }
 nav ul {
@@ -68,9 +86,6 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-img {
-    max-width: 300px;
 }
 section {
     width: 100%;

@@ -1,0 +1,1 @@
+https://www.bestbuy.com/site/fitbit-inspire-3-health-fitness-tracker-midnight-zen/6514030.p?skuId=6514030&intl=nosplash
