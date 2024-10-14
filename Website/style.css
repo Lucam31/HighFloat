@@ -6,8 +6,9 @@
     scroll-snap-type: y mandatory;
 }
 body{
-    background-color: #ffffff;
+    background-color: #b0a8a8;
     overflow-y: scroll;
+    color: white;
 }
 section{
     box-sizing: border-box;
@@ -26,7 +27,7 @@ nav{
     border-bottom: .5px solid black;
     z-index: 10;
     color: white;
-    background-color: #333333a8;
+    background-color: #454343a8;
 }
 .title{
     width: 30%;
