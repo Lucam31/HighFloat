@@ -18,14 +18,13 @@ a{
 
 .backgroundImage {
     position: fixed;
-    left: -5vw;
-    width: 120vw;
+    width: 100vw;
     height: 100vh;
     image-orientation: from-image;
     background-image: url("images/background.jpg");
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     z-index: -1;
     }
 
