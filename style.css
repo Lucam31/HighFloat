@@ -152,6 +152,51 @@ nav{
     font-size: 16pt;
 }
 
+/* Usage section */
+#usage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.usageTitle {
+    font-size: 24pt;
+    margin-top: 10%;
+    height: 10%;
+}
+.card-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    height: 80%;
+    margin-top: 60px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    transition: transform 0.3s;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card-content {
+    padding: 30px;
+    text-align: center;
+}
+
+.card-content h2 {
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
 
 /* Features section */
 .featureDiv{
