@@ -1,3 +1,4 @@
+Erstellt von Luca Müller
 
 Bildquellen:
 https://duoiba.com/product/s2s-max-gps-drone-with-6k720p-hd-adjustable-camera-wifi-headless-mode-rolling-obstacle-avoidance-indoor-hover-remote-distance-100m-20-min-battery-life-for-adults-and-kids
@@ -10,3 +11,5 @@ https://www.drone-zone.de/flash-forest-drohne-pflanzt-baeume-10x-schneller/
 
 
 Bitte die Animationen des SVG's in der Section About beachten, die haben viel Zeit benötigt
+
+Website getestet mit Safari und Firefox
